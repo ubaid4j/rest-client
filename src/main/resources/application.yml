@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rest-client
+
+server:
+  port: 9900
+
+
+logging:
+  level:
+    dev.ubaid: trace
+    web: trace
+    "org.apache.hc.client5.http": trace
